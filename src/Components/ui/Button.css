@@ -1,0 +1,29 @@
+.button {
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    background-color:var(--navy);
+    cursor: pointer;
+    color: white;
+    width: 20%;
+}
+
+.button:disabled {
+    background-color: var(--gray);
+    color: var(--babyPink);
+    cursor: not-allowed;
+}
+
+.primary-btn{
+    background-color: var(--navy);
+}
+
+.secondary-btn{
+    background-color: var(--softPink);
+}
+
+.danger-btn{
+    background-color: var(--pink);
+}
